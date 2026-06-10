@@ -49,3 +49,11 @@ def jami_users():
     n = c.fetchone()[0]
     conn.close()
     return n
+
+def jami_kontakt():
+    conn = sqlite3.connect(DB)
+    c = conn.cursor()
+    c.execute("SELECT COUNT(*) FROM users WHERE phone IS NOT NULL")
+    n = c.fetchone()[0]
+    conn.close()
+    return n
