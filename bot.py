@@ -42,8 +42,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"━━━━━━━━━━━━━━━━━━\n\n"
         f"💎 Telegram Premium 1 oy\n\n"
         f"~~{NARX_ASL:,} so'm~~ ❌\n"
-        f"✅ Atigi {NARX_SKIDKA:,} so'm!\n\n"
-        f"🎁 Chegirma: {NARX_ASL - NARX_SKIDKA:,} so'm tejaysiz!\n\n"
+        f"✅ Atigi {Bepul_Premsoni:,} so'm!\n\n"
+        f"🎁 Chegirma: {NARX_ASL - Bepul_Premsoni:,} so'm tejaysiz!\n\n"
         f"━━━━━━━━━━━━━━━━━━\n"
         f"📲 Yutuqni qo'lga kiritish uchun\n"
         f"telefon raqamingizni yuboring!\n\n"
@@ -98,8 +98,8 @@ async def skidka_haqida(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"• Reklama yo'q\n"
         f"• Va yana ko'p narsalar!\n\n"
         f"━━━━━━━━━━━━━━━━━━\n"
-        f"💰 Narx: ~~{NARX_ASL:,}~~ → {NARX_SKIDKA:,} so'm\n"
-        f"🎁 Tejash: {NARX_ASL - NARX_SKIDKA:,} so'm\n\n"
+        f"💰 Narx: ~~{NARX_ASL:,}~~ → {Bepul_Premsoni:,} so'm\n"
+        f"🎁 Tejash: {NARX_ASL - Bepul_Premsoni:,} so'm\n\n"
         f"📲 Olish uchun kontakt yuboring!"
     )
 
