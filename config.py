@@ -3,4 +3,4 @@ ADMIN_ID = 7132963801
 ADMIN_USERNAME = "@xaitxon"
 
 NARX_ASL = 45000
-NARX_SKIDKA = bepul 3kiwiga
+Bepul_Premsoni = 3
